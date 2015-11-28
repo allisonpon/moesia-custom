@@ -295,7 +295,7 @@ function moesia_custom_styles($custom) {
 		$custom .= ".main-navigation a:hover, .entry-title a:hover, .entry-meta a:hover, .entry-footer a:hover, .social-widget li a::before, .author-social a, .widget a:hover, blockquote:before { color: {$primary_color}; }"."\n";
 		$custom .= ".panel.widget .widget-title:after, .so-panel.widget .widget-title:after { border-color: {$primary_color}; }"."\n";
     $custom .= ".main-navigation ul ul li, .main-navigation li:hover, .main-navigation li:focus { background-color: {$primary_color}; }"."\n";
-	  $custom .= ".read-more:hover { color: {$primary_color}; }"."\n";
+	  $custom .= ".read-more:hover, .entry-summary a { color: {$primary_color}; }"."\n";
     $custom .= ".thumb-icon { color: {$primary_color}; }"."\n";
     $custom .= "article.sticky { border: 4px solid {$primary_color}; }"."\n";
     $custom .= "footer.site-footer { background-color: {$primary_color}; }"."\n";
